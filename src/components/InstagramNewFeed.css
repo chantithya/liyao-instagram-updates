@@ -1,0 +1,36 @@
+/* InstagramNewFeed.css */
+
+.instagram-new-feed {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between the image and caption */
+}
+
+.image {
+  max-width: 60%; /* Adjust as needed */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+  max-width: 35%; /* Adjust as needed */
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
+
+.caption h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+.caption p {
+  font-size: 1rem;
+  color: #6c757d;
+}

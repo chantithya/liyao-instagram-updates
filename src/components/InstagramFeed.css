@@ -1,0 +1,56 @@
+/* InstagramFeed.css */
+
+.instagram-feed {
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.post-card {
+  background-color: #f4f5f7;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 5px solid #343a40;
+}
+
+.post-caption {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.post-caption p {
+  margin: 0;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.loading {
+  font-size: 1.5rem;
+  color: #495057;
+  text-align: center;
+  margin-top: 4rem;
+}
