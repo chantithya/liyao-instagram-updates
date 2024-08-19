@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/liyao-instagram-updates/static/css/main.68fcadc0.css",
-    "main.js": "/liyao-instagram-updates/static/js/main.e25808e7.js",
+    "main.js": "/liyao-instagram-updates/static/js/main.43fbbc42.js",
     "static/js/453.3a38ce5d.chunk.js": "/liyao-instagram-updates/static/js/453.3a38ce5d.chunk.js",
     "service-worker.js": "/liyao-instagram-updates/service-worker.js",
     "index.html": "/liyao-instagram-updates/index.html",
     "main.68fcadc0.css.map": "/liyao-instagram-updates/static/css/main.68fcadc0.css.map",
-    "main.e25808e7.js.map": "/liyao-instagram-updates/static/js/main.e25808e7.js.map",
+    "main.43fbbc42.js.map": "/liyao-instagram-updates/static/js/main.43fbbc42.js.map",
     "453.3a38ce5d.chunk.js.map": "/liyao-instagram-updates/static/js/453.3a38ce5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68fcadc0.css",
-    "static/js/main.e25808e7.js"
+    "static/js/main.43fbbc42.js"
   ]
 }
